@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C109" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="EATMeal" representedClassName="EATMeal" syncable="YES">
+        <attribute name="caloricBeverage" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="ratingAfter" optional="YES" attributeType="Float" defaultValueString="4" syncable="YES"/>
+        <attribute name="ratingBefore" optional="YES" attributeType="Float" defaultValueString="4" syncable="YES"/>
+        <attribute name="snack" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="surveyNegative1" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegative2" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegative3" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegative4" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegative5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surveyNegative6" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegative7" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegative8" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegativeComment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surveyPositive" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositive1" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositive2" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositive3" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositive4" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositive5" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositive6" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositiveComment" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="photo" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Photo" inverseName="meal" inverseEntity="Photo" syncable="YES"/>
+    </entity>
+    <entity name="Photo" representedClassName="EAT.Photo" syncable="YES">
+        <attribute name="height" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="uuid" attributeType="String" syncable="YES"/>
+        <attribute name="width" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="meal" maxCount="1" deletionRule="Nullify" destinationEntity="EATMeal" inverseName="photo" inverseEntity="EATMeal" syncable="YES"/>
+        <relationship name="scaledPhotos" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="ScaledPhoto" inverseName="originalPhoto" inverseEntity="ScaledPhoto" syncable="YES"/>
+    </entity>
+    <entity name="Reminder" representedClassName="EAT.Reminder" syncable="YES">
+        <attribute name="hour" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="minute" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="ScaledPhoto" representedClassName="ScaledPhoto" parentEntity="Photo" syncable="YES">
+        <relationship name="originalPhoto" maxCount="1" deletionRule="Nullify" destinationEntity="Photo" inverseName="scaledPhotos" inverseEntity="Photo" syncable="YES"/>
+    </entity>
+    <configuration name="Cache">
+        <memberEntity name="ScaledPhoto"/>
+    </configuration>
+    <configuration name="User">
+        <memberEntity name="Reminder"/>
+        <memberEntity name="Photo"/>
+        <memberEntity name="EATMeal"/>
+    </configuration>
+    <elements>
+        <element name="EATMeal" positionX="0" positionY="0" width="128" height="403"/>
+        <element name="Photo" positionX="207" positionY="162" width="128" height="120"/>
+        <element name="Reminder" positionX="207" positionY="-0" width="128" height="75"/>
+        <element name="ScaledPhoto" positionX="403" positionY="189" width="128" height="58"/>
+    </elements>
+</model>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14B25" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="EATMeal" representedClassName="EATMeal" syncable="YES">
+        <attribute name="caloricBeverage" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="ratingAfter" optional="YES" attributeType="Float" defaultValueString="4" syncable="YES"/>
+        <attribute name="ratingBefore" optional="YES" attributeType="Float" defaultValueString="4" syncable="YES"/>
+        <attribute name="snack" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="surveyNegative1" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegative2" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegative3" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegative4" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegative5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surveyNegative6" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegative7" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegative8" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyNegativeComment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surveyPositive" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositive1" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositive2" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositive3" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositive4" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositive5" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositive6" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="surveyPositiveComment" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Reminder" representedClassName="EAT.Reminder" syncable="YES">
+        <attribute name="hour" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="minute" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EATMeal" positionX="0" positionY="0" width="128" height="390"/>
+        <element name="Reminder" positionX="9" positionY="162" width="128" height="75"/>
+    </elements>
+</model>

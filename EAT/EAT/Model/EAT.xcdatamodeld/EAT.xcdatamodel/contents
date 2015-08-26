@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C1021" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="EATMeal" representedClassName="EATMeal" syncable="YES">
+        <attribute name="caloricBeverage" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="ratingAfter" optional="YES" attributeType="Float" defaultValueString="4" syncable="YES"/>
+        <attribute name="ratingBefore" optional="YES" attributeType="Float" defaultValueString="4" syncable="YES"/>
+        <attribute name="snack" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="surveyAnswer" optional="YES" attributeType="Integer 16" syncable="YES"/>
+        <attribute name="surveyComment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surveyPositive" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EATMeal" positionX="0" positionY="0" width="128" height="180"/>
+    </elements>
+</model>

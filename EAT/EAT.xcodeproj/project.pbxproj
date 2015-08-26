@@ -1,0 +1,1029 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7508C1E51A5AA06500714C44 /* SettingsNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508C1E41A5AA06500714C44 /* SettingsNavigationController.swift */; };
+		750ABA2618A8F3DE005B84E7 /* EATLearnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 750ABA2518A8F3DE005B84E7 /* EATLearnViewController.m */; };
+		751799ED1A87D72E007695B8 /* PhotoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751799EC1A87D72E007695B8 /* PhotoExtension.swift */; };
+		751799EF1A87E074007695B8 /* ScaledPhotoExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751799EE1A87E074007695B8 /* ScaledPhotoExtension.swift */; };
+		751A192F1A819CBF00A13DC4 /* RatingNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751A192E1A819CBF00A13DC4 /* RatingNavigationController.swift */; };
+		751F7A21189AF919005F8FCF /* UIColor+EAT.m in Sources */ = {isa = PBXBuildFile; fileRef = 751F7A20189AF919005F8FCF /* UIColor+EAT.m */; };
+		752266E31A65310F00E212E0 /* RemindersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752266E21A65310F00E212E0 /* RemindersDetailViewController.swift */; };
+		752266E51A6531CA00E212E0 /* RemindersMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752266E41A6531CA00E212E0 /* RemindersMasterViewController.swift */; };
+		752266EE1A6536F700E212E0 /* DataManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752266ED1A6536F700E212E0 /* DataManagerTests.swift */; };
+		753A33741899E065007AB46B /* EATDiaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 753A33731899E065007AB46B /* EATDiaryViewController.m */; };
+		754F2B081A5B5AC200EE245D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754F2B071A5B5AC200EE245D /* AppDelegate.swift */; };
+		755AAA241958370B00693C52 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA151958370B00693C52 /* index.html */; };
+		755AAA251958370B00693C52 /* topic1.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA161958370B00693C52 /* topic1.html */; };
+		755AAA261958370B00693C52 /* topic10.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA171958370B00693C52 /* topic10.html */; };
+		755AAA271958370B00693C52 /* topic11.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA181958370B00693C52 /* topic11.html */; };
+		755AAA281958370B00693C52 /* topic12.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA191958370B00693C52 /* topic12.html */; };
+		755AAA291958370B00693C52 /* topic13.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA1A1958370B00693C52 /* topic13.html */; };
+		755AAA2A1958370B00693C52 /* topic14.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA1B1958370B00693C52 /* topic14.html */; };
+		755AAA2B1958370B00693C52 /* topic2.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA1C1958370B00693C52 /* topic2.html */; };
+		755AAA2C1958370B00693C52 /* topic3.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA1D1958370B00693C52 /* topic3.html */; };
+		755AAA2D1958370B00693C52 /* topic4.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA1E1958370B00693C52 /* topic4.html */; };
+		755AAA2E1958370B00693C52 /* topic5.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA1F1958370B00693C52 /* topic5.html */; };
+		755AAA2F1958370B00693C52 /* topic6.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA201958370B00693C52 /* topic6.html */; };
+		755AAA301958370B00693C52 /* topic7.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA211958370B00693C52 /* topic7.html */; };
+		755AAA311958370B00693C52 /* topic8.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA221958370B00693C52 /* topic8.html */; };
+		755AAA321958370B00693C52 /* topic9.html in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA231958370B00693C52 /* topic9.html */; };
+		755AAA34195838F800693C52 /* eat.css in Resources */ = {isa = PBXBuildFile; fileRef = 755AAA33195838F800693C52 /* eat.css */; };
+		755C755C1924C44C003505D2 /* EATAverageRatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 755C755B1924C44C003505D2 /* EATAverageRatingController.m */; };
+		755CB6181A6D453100C8998A /* ReminderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CB6171A6D453100C8998A /* ReminderManager.swift */; };
+		755CB61B1A6D464E00C8998A /* ReminderManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CB61A1A6D464E00C8998A /* ReminderManagerTests.swift */; };
+		755CB6201A6D5F0500C8998A /* ReminderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CB61F1A6D5F0500C8998A /* ReminderExtensions.swift */; };
+		755CB6221A6D625600C8998A /* ReminderExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755CB6211A6D625600C8998A /* ReminderExtensionsTests.swift */; };
+		755FA1B7189ED6F600E2D0F0 /* EATRatingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 755FA1B6189ED6F600E2D0F0 /* EATRatingSlider.m */; };
+		756E39CF189D270E00266A4C /* NSDate+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 756E39CE189D270E00266A4C /* NSDate+Utils.m */; };
+		75719858188B14C40091910C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75719857188B14C40091910C /* Foundation.framework */; };
+		7571985A188B14C40091910C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75719859188B14C40091910C /* CoreGraphics.framework */; };
+		7571985C188B14C40091910C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7571985B188B14C40091910C /* UIKit.framework */; };
+		75719862188B14C40091910C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75719860188B14C40091910C /* InfoPlist.strings */; };
+		7571986B188B14C40091910C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75719869188B14C40091910C /* Main.storyboard */; };
+		75719873188B14C40091910C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75719872188B14C40091910C /* Images.xcassets */; };
+		7571987B188B14C40091910C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75719857188B14C40091910C /* Foundation.framework */; };
+		7571987C188B14C40091910C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7571985B188B14C40091910C /* UIKit.framework */; };
+		75719884188B14C40091910C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75719882188B14C40091910C /* InfoPlist.strings */; };
+		7574C03218EC2F53005E7244 /* EATDiaryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7574C02718EC2F53005E7244 /* EATDiaryCell.m */; };
+		7574C03318EC2F53005E7244 /* EATRatingSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7574C02918EC2F53005E7244 /* EATRatingSliderViewController.m */; };
+		7574C03418EC2F53005E7244 /* EATSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7574C02B18EC2F53005E7244 /* EATSliderCell.m */; };
+		7574C03518EC2F53005E7244 /* EATSurveyRoutingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7574C02D18EC2F53005E7244 /* EATSurveyRoutingCell.m */; };
+		7574C03618EC2F53005E7244 /* EATSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7574C02F18EC2F53005E7244 /* EATSwitchCell.m */; };
+		7574C03718EC2F53005E7244 /* EATTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7574C03118EC2F53005E7244 /* EATTextViewCell.m */; };
+		757D2DC61A9117AD0086C219 /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 757D2DC51A9117AD0086C219 /* Notifications.m */; };
+		757D2DC81A911A310086C219 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757D2DC71A911A310086C219 /* MainTabBarController.swift */; };
+		757D2DCA1A911B690086C219 /* AppRouteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757D2DC91A911B690086C219 /* AppRouteManager.swift */; };
+		757D2DCC1A91202D0086C219 /* AppRouteProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757D2DCB1A91202D0086C219 /* AppRouteProtocols.swift */; };
+		758A8C3E1A5D41DE004D4B8E /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758A8C3D1A5D41DE004D4B8E /* PersistenceManager.swift */; };
+		758A8C401A5E99EA004D4B8E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758A8C3F1A5E99EA004D4B8E /* DataManager.swift */; };
+		758BF7301A7F074F00FE27B9 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 758BF72F1A7F074F00FE27B9 /* libCorePlot-CocoaTouch.a */; };
+		7599A8061A85697F0096BADF /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7599A8051A85697F0096BADF /* PhotoManager.swift */; };
+		759B3CD81A87B59300A53B12 /* EATMeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 759B3CD71A87B59300A53B12 /* EATMeal.m */; };
+		759B3CE11A884DB600A53B12 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759B3CE01A884DB600A53B12 /* Photo.swift */; };
+		759CFB271A688FEA004E4646 /* ReminderCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759CFB261A688FEA004E4646 /* ReminderCellTests.swift */; };
+		759F71D51896748100A37A88 /* EATSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F71D41896748100A37A88 /* EATSignUpViewController.m */; };
+		759F71D818967A9C00A37A88 /* EATRatingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759F71D718967A9C00A37A88 /* EATRatingViewController.m */; };
+		759F71E11898DC2E00A37A88 /* EAT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 759F71DF1898DC2E00A37A88 /* EAT.xcdatamodeld */; };
+		75AEDFEE1A54A22C004D80A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75AEDFED1A54A22C004D80A1 /* LaunchScreen.xib */; };
+		75B0B4DB1A672D1D005D99FE /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0B4DA1A672D1D005D99FE /* Reminder.swift */; };
+		75B0B4DD1A673725005D99FE /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0B4DC1A673725005D99FE /* ReminderCell.swift */; };
+		75BBC2D51A82DBA9003DF65D /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BBC2D41A82DBA9003DF65D /* PhotoCell.swift */; };
+		75BC40161A5484FE009D8F45 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BC40151A5484FE009D8F45 /* CloudKit.framework */; };
+		75BE38FD1A5896AB00994CA8 /* CollapsibleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BE38FC1A5896AB00994CA8 /* CollapsibleImageView.swift */; };
+		75BF6A351A9032D100061AE1 /* EATPhotoPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BF6A341A9032D100061AE1 /* EATPhotoPickerController.swift */; };
+		75BF6A371A90353300061AE1 /* SurveyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BF6A361A90353300061AE1 /* SurveyCell.swift */; };
+		75BF8B311A5A392300B99B97 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BF8B301A5A392300B99B97 /* SettingsTableViewController.swift */; };
+		75C6DFB81A7F0A0E00A62CE0 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C6DFB71A7F0A0E00A62CE0 /* Crashlytics.framework */; };
+		75D1831F189D73ED006A43E8 /* EATSurveyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D1831E189D73ED006A43E8 /* EATSurveyViewController.m */; };
+		75D8BD321891EDAA00012972 /* EATOnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D8BD311891EDAA00012972 /* EATOnboardingViewController.m */; };
+		75D8BD3B1891F06800012972 /* EATPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D8BD3A1891F06800012972 /* EATPageViewController.m */; };
+		75D8BD411891F5AB00012972 /* onboarding1.html in Resources */ = {isa = PBXBuildFile; fileRef = 75D8BD3D1891F5AB00012972 /* onboarding1.html */; };
+		75D8BD421891F5AB00012972 /* onboarding2.html in Resources */ = {isa = PBXBuildFile; fileRef = 75D8BD3E1891F5AB00012972 /* onboarding2.html */; };
+		75D8BD431891F5AB00012972 /* onboarding3.html in Resources */ = {isa = PBXBuildFile; fileRef = 75D8BD3F1891F5AB00012972 /* onboarding3.html */; };
+		75D8BD441891F5AB00012972 /* onboarding4.html in Resources */ = {isa = PBXBuildFile; fileRef = 75D8BD401891F5AB00012972 /* onboarding4.html */; };
+		75DBD7431A7D48E800BB98CF /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DBD7421A7D48E800BB98CF /* SplashViewController.swift */; };
+		75ECC36F189431C1001A3308 /* onboarding.css in Resources */ = {isa = PBXBuildFile; fileRef = 75ECC36E189431C1001A3308 /* onboarding.css */; };
+		75F05156193A33110065D721 /* EATRatingHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F05155193A33110065D721 /* EATRatingHistoryController.m */; };
+		75F61672191BA0AF00C8973E /* EATHistoryLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6166F191BA0AF00C8973E /* EATHistoryLandscapeViewController.m */; };
+		75F61673191BA0AF00C8973E /* EATHistoryPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F61671191BA0AF00C8973E /* EATHistoryPortraitViewController.m */; };
+		B6DC23741B8AFBBB008DA7E4 /* EATMyLessonsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DC23731B8AFBBB008DA7E4 /* EATMyLessonsTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7571987D188B14C40091910C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7571984C188B14C40091910C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75719853188B14C40091910C;
+			remoteInfo = EAT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7508C1E41A5AA06500714C44 /* SettingsNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsNavigationController.swift; sourceTree = "<group>"; };
+		750ABA2418A8F3DE005B84E7 /* EATLearnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATLearnViewController.h; sourceTree = "<group>"; };
+		750ABA2518A8F3DE005B84E7 /* EATLearnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATLearnViewController.m; sourceTree = "<group>"; };
+		751799EC1A87D72E007695B8 /* PhotoExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoExtension.swift; sourceTree = "<group>"; };
+		751799EE1A87E074007695B8 /* ScaledPhotoExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaledPhotoExtension.swift; sourceTree = "<group>"; };
+		751A192E1A819CBF00A13DC4 /* RatingNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingNavigationController.swift; sourceTree = "<group>"; };
+		751A19301A81B02E00A13DC4 /* EAT 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EAT 6.xcdatamodel"; sourceTree = "<group>"; };
+		751F7A1F189AF919005F8FCF /* UIColor+EAT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+EAT.h"; sourceTree = "<group>"; };
+		751F7A20189AF919005F8FCF /* UIColor+EAT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+EAT.m"; sourceTree = "<group>"; };
+		752266E21A65310F00E212E0 /* RemindersDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersDetailViewController.swift; sourceTree = "<group>"; };
+		752266E41A6531CA00E212E0 /* RemindersMasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersMasterViewController.swift; sourceTree = "<group>"; };
+		752266E71A65358600E212E0 /* EATTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EATTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		752266ED1A6536F700E212E0 /* DataManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManagerTests.swift; sourceTree = "<group>"; };
+		752267111A66898200E212E0 /* EAT 4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EAT 4.xcdatamodel"; sourceTree = "<group>"; };
+		753A33721899E065007AB46B /* EATDiaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATDiaryViewController.h; sourceTree = "<group>"; };
+		753A33731899E065007AB46B /* EATDiaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATDiaryViewController.m; sourceTree = "<group>"; };
+		754F2B071A5B5AC200EE245D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		755AAA151958370B00693C52 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		755AAA161958370B00693C52 /* topic1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic1.html; sourceTree = "<group>"; };
+		755AAA171958370B00693C52 /* topic10.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic10.html; sourceTree = "<group>"; };
+		755AAA181958370B00693C52 /* topic11.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic11.html; sourceTree = "<group>"; };
+		755AAA191958370B00693C52 /* topic12.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic12.html; sourceTree = "<group>"; };
+		755AAA1A1958370B00693C52 /* topic13.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic13.html; sourceTree = "<group>"; };
+		755AAA1B1958370B00693C52 /* topic14.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic14.html; sourceTree = "<group>"; };
+		755AAA1C1958370B00693C52 /* topic2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic2.html; sourceTree = "<group>"; };
+		755AAA1D1958370B00693C52 /* topic3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic3.html; sourceTree = "<group>"; };
+		755AAA1E1958370B00693C52 /* topic4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic4.html; sourceTree = "<group>"; };
+		755AAA1F1958370B00693C52 /* topic5.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic5.html; sourceTree = "<group>"; };
+		755AAA201958370B00693C52 /* topic6.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic6.html; sourceTree = "<group>"; };
+		755AAA211958370B00693C52 /* topic7.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic7.html; sourceTree = "<group>"; };
+		755AAA221958370B00693C52 /* topic8.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic8.html; sourceTree = "<group>"; };
+		755AAA231958370B00693C52 /* topic9.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = topic9.html; sourceTree = "<group>"; };
+		755AAA33195838F800693C52 /* eat.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = eat.css; sourceTree = "<group>"; };
+		755C755A1924C44C003505D2 /* EATAverageRatingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATAverageRatingController.h; sourceTree = "<group>"; };
+		755C755B1924C44C003505D2 /* EATAverageRatingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATAverageRatingController.m; sourceTree = "<group>"; };
+		755CB6171A6D453100C8998A /* ReminderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderManager.swift; sourceTree = "<group>"; };
+		755CB61A1A6D464E00C8998A /* ReminderManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderManagerTests.swift; sourceTree = "<group>"; };
+		755CB61F1A6D5F0500C8998A /* ReminderExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderExtensions.swift; sourceTree = "<group>"; };
+		755CB6211A6D625600C8998A /* ReminderExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderExtensionsTests.swift; sourceTree = "<group>"; };
+		755FA1B5189ED6F600E2D0F0 /* EATRatingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATRatingSlider.h; sourceTree = "<group>"; };
+		755FA1B6189ED6F600E2D0F0 /* EATRatingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATRatingSlider.m; sourceTree = "<group>"; };
+		7562C1001A8A022700FF0CF5 /* EAT 12.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EAT 12.xcdatamodel"; sourceTree = "<group>"; };
+		7563D32B192776E900FC5C29 /* EATConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EATConstants.h; sourceTree = "<group>"; };
+		756E39CD189D270E00266A4C /* NSDate+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utils.h"; sourceTree = "<group>"; };
+		756E39CE189D270E00266A4C /* NSDate+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utils.m"; sourceTree = "<group>"; };
+		75719854188B14C40091910C /* EAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75719857188B14C40091910C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		75719859188B14C40091910C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7571985B188B14C40091910C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		75719861188B14C40091910C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75719865188B14C40091910C /* EAT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EAT-Prefix.pch"; sourceTree = "<group>"; };
+		7571986A188B14C40091910C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75719872188B14C40091910C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		75719878188B14C40091910C /* EATTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EATTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75719881188B14C40091910C /* EATTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EATTests-Info.plist"; sourceTree = "<group>"; };
+		75719883188B14C40091910C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7574C02618EC2F53005E7244 /* EATDiaryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATDiaryCell.h; sourceTree = "<group>"; };
+		7574C02718EC2F53005E7244 /* EATDiaryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATDiaryCell.m; sourceTree = "<group>"; };
+		7574C02818EC2F53005E7244 /* EATRatingSliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATRatingSliderViewController.h; sourceTree = "<group>"; };
+		7574C02918EC2F53005E7244 /* EATRatingSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATRatingSliderViewController.m; sourceTree = "<group>"; };
+		7574C02A18EC2F53005E7244 /* EATSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATSliderCell.h; sourceTree = "<group>"; };
+		7574C02B18EC2F53005E7244 /* EATSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATSliderCell.m; sourceTree = "<group>"; };
+		7574C02C18EC2F53005E7244 /* EATSurveyRoutingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATSurveyRoutingCell.h; sourceTree = "<group>"; };
+		7574C02D18EC2F53005E7244 /* EATSurveyRoutingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATSurveyRoutingCell.m; sourceTree = "<group>"; };
+		7574C02E18EC2F53005E7244 /* EATSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATSwitchCell.h; sourceTree = "<group>"; };
+		7574C02F18EC2F53005E7244 /* EATSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATSwitchCell.m; sourceTree = "<group>"; };
+		7574C03018EC2F53005E7244 /* EATTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATTextViewCell.h; sourceTree = "<group>"; };
+		7574C03118EC2F53005E7244 /* EATTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATTextViewCell.m; sourceTree = "<group>"; };
+		757D2DC41A9117930086C219 /* Notifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		757D2DC51A9117AD0086C219 /* Notifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
+		757D2DC71A911A310086C219 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		757D2DC91A911B690086C219 /* AppRouteManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRouteManager.swift; sourceTree = "<group>"; };
+		757D2DCB1A91202D0086C219 /* AppRouteProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRouteProtocols.swift; sourceTree = "<group>"; };
+		75877B4519222FD500206EB8 /* EAT 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EAT 3.xcdatamodel"; sourceTree = "<group>"; };
+		758A8C3D1A5D41DE004D4B8E /* PersistenceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		758A8C3F1A5E99EA004D4B8E /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DataManager.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		758AB2491A6C95B100AFEAFB /* EAT 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EAT 5.xcdatamodel"; sourceTree = "<group>"; };
+		758BF72F1A7F074F00FE27B9 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCorePlot-CocoaTouch.a"; path = "core-plot/framework/../build/Debug-iphoneos/libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
+		7599A8051A85697F0096BADF /* PhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		7599A8071A856AAC0096BADF /* EAT 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EAT 7.xcdatamodel"; sourceTree = "<group>"; };
+		759B3CD51A85AC8F00A53B12 /* EAT 9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EAT 9.xcdatamodel"; sourceTree = "<group>"; };
+		759B3CD61A87B59300A53B12 /* EATMeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATMeal.h; sourceTree = "<group>"; };
+		759B3CD71A87B59300A53B12 /* EATMeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATMeal.m; sourceTree = "<group>"; };
+		759B3CDD1A884C7100A53B12 /* EAT 11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EAT 11.xcdatamodel"; sourceTree = "<group>"; };
+		759B3CE01A884DB600A53B12 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		759CFB261A688FEA004E4646 /* ReminderCellTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderCellTests.swift; sourceTree = "<group>"; };
+		759F71D31896748100A37A88 /* EATSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATSignUpViewController.h; sourceTree = "<group>"; };
+		759F71D41896748100A37A88 /* EATSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATSignUpViewController.m; sourceTree = "<group>"; };
+		759F71D618967A9C00A37A88 /* EATRatingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATRatingViewController.h; sourceTree = "<group>"; };
+		759F71D718967A9C00A37A88 /* EATRatingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATRatingViewController.m; sourceTree = "<group>"; };
+		759F71E01898DC2E00A37A88 /* EAT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EAT.xcdatamodel; sourceTree = "<group>"; };
+		75AEDFED1A54A22C004D80A1 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		75B0B4DA1A672D1D005D99FE /* Reminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		75B0B4DC1A673725005D99FE /* ReminderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
+		75B1EED71A857049007C8EC8 /* EAT 8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EAT 8.xcdatamodel"; sourceTree = "<group>"; };
+		75BBC2D41A82DBA9003DF65D /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		75BC40151A5484FE009D8F45 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		75BE38FB1A5896AB00994CA8 /* EAT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EAT-Bridging-Header.h"; sourceTree = "<group>"; };
+		75BE38FC1A5896AB00994CA8 /* CollapsibleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleImageView.swift; sourceTree = "<group>"; };
+		75BF6A341A9032D100061AE1 /* EATPhotoPickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EATPhotoPickerController.swift; sourceTree = "<group>"; };
+		75BF6A361A90353300061AE1 /* SurveyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurveyCell.swift; sourceTree = "<group>"; };
+		75BF8B301A5A392300B99B97 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		75C6DFB71A7F0A0E00A62CE0 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		75D1831D189D73ED006A43E8 /* EATSurveyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATSurveyViewController.h; sourceTree = "<group>"; };
+		75D1831E189D73ED006A43E8 /* EATSurveyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATSurveyViewController.m; sourceTree = "<group>"; };
+		75D5479B1916524800EFEDFB /* EAT 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EAT 2.xcdatamodel"; sourceTree = "<group>"; };
+		75D8BD301891EDAA00012972 /* EATOnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATOnboardingViewController.h; sourceTree = "<group>"; };
+		75D8BD311891EDAA00012972 /* EATOnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATOnboardingViewController.m; sourceTree = "<group>"; };
+		75D8BD391891F06800012972 /* EATPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATPageViewController.h; sourceTree = "<group>"; };
+		75D8BD3A1891F06800012972 /* EATPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATPageViewController.m; sourceTree = "<group>"; };
+		75D8BD3D1891F5AB00012972 /* onboarding1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = onboarding1.html; sourceTree = "<group>"; };
+		75D8BD3E1891F5AB00012972 /* onboarding2.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = onboarding2.html; sourceTree = "<group>"; };
+		75D8BD3F1891F5AB00012972 /* onboarding3.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = onboarding3.html; sourceTree = "<group>"; };
+		75D8BD401891F5AB00012972 /* onboarding4.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = onboarding4.html; sourceTree = "<group>"; };
+		75DBD7421A7D48E800BB98CF /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		75E8C0181A55F4C900B9B20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75ECC36E189431C1001A3308 /* onboarding.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = onboarding.css; sourceTree = "<group>"; };
+		75F05154193A33110065D721 /* EATRatingHistoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATRatingHistoryController.h; sourceTree = "<group>"; };
+		75F05155193A33110065D721 /* EATRatingHistoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATRatingHistoryController.m; sourceTree = "<group>"; };
+		75F213C01A87EA9000E8665A /* EAT 10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EAT 10.xcdatamodel"; sourceTree = "<group>"; };
+		75F6166E191BA0AF00C8973E /* EATHistoryLandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATHistoryLandscapeViewController.h; sourceTree = "<group>"; };
+		75F6166F191BA0AF00C8973E /* EATHistoryLandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATHistoryLandscapeViewController.m; sourceTree = "<group>"; };
+		75F61670191BA0AF00C8973E /* EATHistoryPortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATHistoryPortraitViewController.h; sourceTree = "<group>"; };
+		75F61671191BA0AF00C8973E /* EATHistoryPortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATHistoryPortraitViewController.m; sourceTree = "<group>"; };
+		B6DC23721B8AFBBB008DA7E4 /* EATMyLessonsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATMyLessonsTableViewCell.h; sourceTree = "<group>"; };
+		B6DC23731B8AFBBB008DA7E4 /* EATMyLessonsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATMyLessonsTableViewCell.m; sourceTree = "<group>"; };
+		B6EF75401B849022001404C7 /* EAT 13.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EAT 13.xcdatamodel"; sourceTree = "<group>"; };
+		B6EF75411B8493B8001404C7 /* EAT 14.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EAT 14.xcdatamodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75719851188B14C40091910C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758BF7301A7F074F00FE27B9 /* libCorePlot-CocoaTouch.a in Frameworks */,
+				7571985A188B14C40091910C /* CoreGraphics.framework in Frameworks */,
+				7571985C188B14C40091910C /* UIKit.framework in Frameworks */,
+				75BC40161A5484FE009D8F45 /* CloudKit.framework in Frameworks */,
+				75C6DFB81A7F0A0E00A62CE0 /* Crashlytics.framework in Frameworks */,
+				75719858188B14C40091910C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75719875188B14C40091910C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7571987C188B14C40091910C /* UIKit.framework in Frameworks */,
+				7571987B188B14C40091910C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		751F7A1B189AC769005F8FCF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				756E39CD189D270E00266A4C /* NSDate+Utils.h */,
+				756E39CE189D270E00266A4C /* NSDate+Utils.m */,
+				751F7A1F189AF919005F8FCF /* UIColor+EAT.h */,
+				751F7A20189AF919005F8FCF /* UIColor+EAT.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		752266E61A6531D700E212E0 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				752266E41A6531CA00E212E0 /* RemindersMasterViewController.swift */,
+				752266E21A65310F00E212E0 /* RemindersDetailViewController.swift */,
+				75B0B4DC1A673725005D99FE /* ReminderCell.swift */,
+				755CB6171A6D453100C8998A /* ReminderManager.swift */,
+				755CB61F1A6D5F0500C8998A /* ReminderExtensions.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		752266EC1A6535AF00E212E0 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				759CFB261A688FEA004E4646 /* ReminderCellTests.swift */,
+				755CB61A1A6D464E00C8998A /* ReminderManagerTests.swift */,
+				755CB6211A6D625600C8998A /* ReminderExtensionsTests.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		755AAA141958370B00693C52 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				755AAA33195838F800693C52 /* eat.css */,
+				755AAA151958370B00693C52 /* index.html */,
+				755AAA161958370B00693C52 /* topic1.html */,
+				755AAA171958370B00693C52 /* topic10.html */,
+				755AAA181958370B00693C52 /* topic11.html */,
+				755AAA191958370B00693C52 /* topic12.html */,
+				755AAA1A1958370B00693C52 /* topic13.html */,
+				755AAA1B1958370B00693C52 /* topic14.html */,
+				755AAA1C1958370B00693C52 /* topic2.html */,
+				755AAA1D1958370B00693C52 /* topic3.html */,
+				755AAA1E1958370B00693C52 /* topic4.html */,
+				755AAA1F1958370B00693C52 /* topic5.html */,
+				755AAA201958370B00693C52 /* topic6.html */,
+				755AAA211958370B00693C52 /* topic7.html */,
+				755AAA221958370B00693C52 /* topic8.html */,
+				755AAA231958370B00693C52 /* topic9.html */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		7571984B188B14C40091910C = {
+			isa = PBXGroup;
+			children = (
+				7571985D188B14C40091910C /* EAT */,
+				7571987F188B14C40091910C /* EATTests */,
+				75719856188B14C40091910C /* Frameworks */,
+				75719855188B14C40091910C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75719855188B14C40091910C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75719854188B14C40091910C /* EAT.app */,
+				75719878188B14C40091910C /* EATTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75719856188B14C40091910C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				758BF72F1A7F074F00FE27B9 /* libCorePlot-CocoaTouch.a */,
+				75C6DFB71A7F0A0E00A62CE0 /* Crashlytics.framework */,
+				75BC40151A5484FE009D8F45 /* CloudKit.framework */,
+				75719857188B14C40091910C /* Foundation.framework */,
+				75719859188B14C40091910C /* CoreGraphics.framework */,
+				7571985B188B14C40091910C /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7571985D188B14C40091910C /* EAT */ = {
+			isa = PBXGroup;
+			children = (
+				754F2B071A5B5AC200EE245D /* AppDelegate.swift */,
+				755C755A1924C44C003505D2 /* EATAverageRatingController.h */,
+				755C755B1924C44C003505D2 /* EATAverageRatingController.m */,
+				7563D32B192776E900FC5C29 /* EATConstants.h */,
+				753A33721899E065007AB46B /* EATDiaryViewController.h */,
+				753A33731899E065007AB46B /* EATDiaryViewController.m */,
+				75F6166E191BA0AF00C8973E /* EATHistoryLandscapeViewController.h */,
+				75F6166F191BA0AF00C8973E /* EATHistoryLandscapeViewController.m */,
+				75F61670191BA0AF00C8973E /* EATHistoryPortraitViewController.h */,
+				75F61671191BA0AF00C8973E /* EATHistoryPortraitViewController.m */,
+				750ABA2418A8F3DE005B84E7 /* EATLearnViewController.h */,
+				750ABA2518A8F3DE005B84E7 /* EATLearnViewController.m */,
+				75D8BD301891EDAA00012972 /* EATOnboardingViewController.h */,
+				75D8BD311891EDAA00012972 /* EATOnboardingViewController.m */,
+				75D8BD391891F06800012972 /* EATPageViewController.h */,
+				75D8BD3A1891F06800012972 /* EATPageViewController.m */,
+				75F05154193A33110065D721 /* EATRatingHistoryController.h */,
+				75F05155193A33110065D721 /* EATRatingHistoryController.m */,
+				755FA1B5189ED6F600E2D0F0 /* EATRatingSlider.h */,
+				755FA1B6189ED6F600E2D0F0 /* EATRatingSlider.m */,
+				759F71D618967A9C00A37A88 /* EATRatingViewController.h */,
+				759F71D718967A9C00A37A88 /* EATRatingViewController.m */,
+				759F71D31896748100A37A88 /* EATSignUpViewController.h */,
+				759F71D41896748100A37A88 /* EATSignUpViewController.m */,
+				75D1831D189D73ED006A43E8 /* EATSurveyViewController.h */,
+				75D1831E189D73ED006A43E8 /* EATSurveyViewController.m */,
+				7508C1E41A5AA06500714C44 /* SettingsNavigationController.swift */,
+				75BF8B301A5A392300B99B97 /* SettingsTableViewController.swift */,
+				758A8C3D1A5D41DE004D4B8E /* PersistenceManager.swift */,
+				75BBC2D41A82DBA9003DF65D /* PhotoCell.swift */,
+				758A8C3F1A5E99EA004D4B8E /* DataManager.swift */,
+				75DBD7421A7D48E800BB98CF /* SplashViewController.swift */,
+				751A192E1A819CBF00A13DC4 /* RatingNavigationController.swift */,
+				7599A8051A85697F0096BADF /* PhotoManager.swift */,
+				75BF6A341A9032D100061AE1 /* EATPhotoPickerController.swift */,
+				757D2DCB1A91202D0086C219 /* AppRouteProtocols.swift */,
+				757D2DC71A911A310086C219 /* MainTabBarController.swift */,
+				757D2DC91A911B690086C219 /* AppRouteManager.swift */,
+				757D2DC41A9117930086C219 /* Notifications.h */,
+				757D2DC51A9117AD0086C219 /* Notifications.m */,
+				752266E61A6531D700E212E0 /* Reminders */,
+				75719872188B14C40091910C /* Images.xcassets */,
+				75719869188B14C40091910C /* Main.storyboard */,
+				75AEDFED1A54A22C004D80A1 /* LaunchScreen.xib */,
+				75BE38FA1A58966F00994CA8 /* Views */,
+				751F7A1B189AC769005F8FCF /* Categories */,
+				755AAA141958370B00693C52 /* Documents */,
+				7574C02518EC2F53005E7244 /* Custom Cells */,
+				7574C01E18EC1AE9005E7244 /* Model */,
+				75D8BD3C1891F5AB00012972 /* Onboarding */,
+				7571985E188B14C40091910C /* Supporting Files */,
+			);
+			path = EAT;
+			sourceTree = "<group>";
+		};
+		7571985E188B14C40091910C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75E8C0181A55F4C900B9B20C /* Info.plist */,
+				75719860188B14C40091910C /* InfoPlist.strings */,
+				75719865188B14C40091910C /* EAT-Prefix.pch */,
+				75BE38FB1A5896AB00994CA8 /* EAT-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7571987F188B14C40091910C /* EATTests */ = {
+			isa = PBXGroup;
+			children = (
+				752266EC1A6535AF00E212E0 /* Reminders */,
+				75719880188B14C40091910C /* Supporting Files */,
+				752266E71A65358600E212E0 /* EATTests-Bridging-Header.h */,
+				752266ED1A6536F700E212E0 /* DataManagerTests.swift */,
+			);
+			path = EATTests;
+			sourceTree = "<group>";
+		};
+		75719880188B14C40091910C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75719881188B14C40091910C /* EATTests-Info.plist */,
+				75719882188B14C40091910C /* InfoPlist.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7574C01E18EC1AE9005E7244 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				759B3CE01A884DB600A53B12 /* Photo.swift */,
+				759B3CD61A87B59300A53B12 /* EATMeal.h */,
+				759B3CD71A87B59300A53B12 /* EATMeal.m */,
+				751799EC1A87D72E007695B8 /* PhotoExtension.swift */,
+				751799EE1A87E074007695B8 /* ScaledPhotoExtension.swift */,
+				759F71DF1898DC2E00A37A88 /* EAT.xcdatamodeld */,
+				75B0B4DA1A672D1D005D99FE /* Reminder.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7574C02518EC2F53005E7244 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7574C02618EC2F53005E7244 /* EATDiaryCell.h */,
+				7574C02718EC2F53005E7244 /* EATDiaryCell.m */,
+				7574C02818EC2F53005E7244 /* EATRatingSliderViewController.h */,
+				7574C02918EC2F53005E7244 /* EATRatingSliderViewController.m */,
+				7574C02A18EC2F53005E7244 /* EATSliderCell.h */,
+				7574C02B18EC2F53005E7244 /* EATSliderCell.m */,
+				7574C02C18EC2F53005E7244 /* EATSurveyRoutingCell.h */,
+				7574C02D18EC2F53005E7244 /* EATSurveyRoutingCell.m */,
+				7574C02E18EC2F53005E7244 /* EATSwitchCell.h */,
+				7574C02F18EC2F53005E7244 /* EATSwitchCell.m */,
+				7574C03018EC2F53005E7244 /* EATTextViewCell.h */,
+				7574C03118EC2F53005E7244 /* EATTextViewCell.m */,
+				75BF6A361A90353300061AE1 /* SurveyCell.swift */,
+				B6DC23721B8AFBBB008DA7E4 /* EATMyLessonsTableViewCell.h */,
+				B6DC23731B8AFBBB008DA7E4 /* EATMyLessonsTableViewCell.m */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		75BE38FA1A58966F00994CA8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75BE38FC1A5896AB00994CA8 /* CollapsibleImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75D8BD3C1891F5AB00012972 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				75D8BD3D1891F5AB00012972 /* onboarding1.html */,
+				75D8BD3E1891F5AB00012972 /* onboarding2.html */,
+				75D8BD3F1891F5AB00012972 /* onboarding3.html */,
+				75D8BD401891F5AB00012972 /* onboarding4.html */,
+				75ECC36E189431C1001A3308 /* onboarding.css */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75719853188B14C40091910C /* EAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75719889188B14C40091910C /* Build configuration list for PBXNativeTarget "EAT" */;
+			buildPhases = (
+				75719850188B14C40091910C /* Sources */,
+				75719851188B14C40091910C /* Frameworks */,
+				75719852188B14C40091910C /* Resources */,
+				75D455701A5447B9009DFB94 /* Build Number */,
+				75C6DF881A7F089000A62CE0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EAT;
+			productName = EAT;
+			productReference = 75719854188B14C40091910C /* EAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75719877188B14C40091910C /* EATTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7571988C188B14C40091910C /* Build configuration list for PBXNativeTarget "EATTests" */;
+			buildPhases = (
+				75719874188B14C40091910C /* Sources */,
+				75719875188B14C40091910C /* Frameworks */,
+				75719876188B14C40091910C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7571987E188B14C40091910C /* PBXTargetDependency */,
+			);
+			name = EATTests;
+			productName = EATTests;
+			productReference = 75719878188B14C40091910C /* EATTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7571984C188B14C40091910C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EAT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Nitemotif;
+				TargetAttributes = {
+					75719853188B14C40091910C = {
+						DevelopmentTeam = 8B38JFYBWV;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					75719877188B14C40091910C = {
+						TestTargetID = 75719853188B14C40091910C;
+					};
+				};
+			};
+			buildConfigurationList = 7571984F188B14C40091910C /* Build configuration list for PBXProject "EAT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7571984B188B14C40091910C;
+			productRefGroup = 75719855188B14C40091910C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75719853188B14C40091910C /* EAT */,
+				75719877188B14C40091910C /* EATTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75719852188B14C40091910C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755AAA34195838F800693C52 /* eat.css in Resources */,
+				755AAA321958370B00693C52 /* topic9.html in Resources */,
+				75ECC36F189431C1001A3308 /* onboarding.css in Resources */,
+				755AAA311958370B00693C52 /* topic8.html in Resources */,
+				75719873188B14C40091910C /* Images.xcassets in Resources */,
+				75719862188B14C40091910C /* InfoPlist.strings in Resources */,
+				755AAA2F1958370B00693C52 /* topic6.html in Resources */,
+				755AAA241958370B00693C52 /* index.html in Resources */,
+				755AAA271958370B00693C52 /* topic11.html in Resources */,
+				755AAA261958370B00693C52 /* topic10.html in Resources */,
+				75D8BD441891F5AB00012972 /* onboarding4.html in Resources */,
+				755AAA2A1958370B00693C52 /* topic14.html in Resources */,
+				755AAA2C1958370B00693C52 /* topic3.html in Resources */,
+				755AAA301958370B00693C52 /* topic7.html in Resources */,
+				75AEDFEE1A54A22C004D80A1 /* LaunchScreen.xib in Resources */,
+				755AAA281958370B00693C52 /* topic12.html in Resources */,
+				75D8BD421891F5AB00012972 /* onboarding2.html in Resources */,
+				7571986B188B14C40091910C /* Main.storyboard in Resources */,
+				755AAA291958370B00693C52 /* topic13.html in Resources */,
+				755AAA2D1958370B00693C52 /* topic4.html in Resources */,
+				75D8BD411891F5AB00012972 /* onboarding1.html in Resources */,
+				755AAA251958370B00693C52 /* topic1.html in Resources */,
+				75D8BD431891F5AB00012972 /* onboarding3.html in Resources */,
+				755AAA2B1958370B00693C52 /* topic2.html in Resources */,
+				755AAA2E1958370B00693C52 /* topic5.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75719876188B14C40091910C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75719884188B14C40091910C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		75C6DF881A7F089000A62CE0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 5f1616815586550986a942ec1817e03f5a0d4faa 5671e9447ce96e6a1260332469023ef663432f81d62f936819ca20cea60d256f";
+		};
+		75D455701A5447B9009DFB94 /* Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#\n# Set the build number to the current git commit count.\n# If we're using the Dev scheme, then we'll suffix the build\n# number with the current branch name, to make collisions\n# far less likely across feature branches.\n# Based on: http://w3facility.info/question/how-do-i-force-xcode-to-rebuild-the-info-plist-file-in-my-project-every-time-i-build-the-project/\n#\ngit=`sh /etc/profile; which git`\nappBuild=`\"$git\" rev-list --all |wc -l`\nif [ $CONFIGURATION = \"Debug\" ]; then\nbranchName=`\"$git\" rev-parse --abbrev-ref HEAD`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $appBuild-$branchName\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\nelse\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $appBuild\" \"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\nfi\necho \"Updated ${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75719850188B14C40091910C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6DC23741B8AFBBB008DA7E4 /* EATMyLessonsTableViewCell.m in Sources */,
+				759B3CE11A884DB600A53B12 /* Photo.swift in Sources */,
+				751799EF1A87E074007695B8 /* ScaledPhotoExtension.swift in Sources */,
+				755C755C1924C44C003505D2 /* EATAverageRatingController.m in Sources */,
+				759F71E11898DC2E00A37A88 /* EAT.xcdatamodeld in Sources */,
+				752266E51A6531CA00E212E0 /* RemindersMasterViewController.swift in Sources */,
+				75D1831F189D73ED006A43E8 /* EATSurveyViewController.m in Sources */,
+				751A192F1A819CBF00A13DC4 /* RatingNavigationController.swift in Sources */,
+				759B3CD81A87B59300A53B12 /* EATMeal.m in Sources */,
+				75DBD7431A7D48E800BB98CF /* SplashViewController.swift in Sources */,
+				757D2DCA1A911B690086C219 /* AppRouteManager.swift in Sources */,
+				7574C03318EC2F53005E7244 /* EATRatingSliderViewController.m in Sources */,
+				753A33741899E065007AB46B /* EATDiaryViewController.m in Sources */,
+				750ABA2618A8F3DE005B84E7 /* EATLearnViewController.m in Sources */,
+				755FA1B7189ED6F600E2D0F0 /* EATRatingSlider.m in Sources */,
+				759F71D818967A9C00A37A88 /* EATRatingViewController.m in Sources */,
+				75D8BD3B1891F06800012972 /* EATPageViewController.m in Sources */,
+				75D8BD321891EDAA00012972 /* EATOnboardingViewController.m in Sources */,
+				75BE38FD1A5896AB00994CA8 /* CollapsibleImageView.swift in Sources */,
+				75BF6A371A90353300061AE1 /* SurveyCell.swift in Sources */,
+				759F71D51896748100A37A88 /* EATSignUpViewController.m in Sources */,
+				75BF8B311A5A392300B99B97 /* SettingsTableViewController.swift in Sources */,
+				7574C03218EC2F53005E7244 /* EATDiaryCell.m in Sources */,
+				75B0B4DD1A673725005D99FE /* ReminderCell.swift in Sources */,
+				751F7A21189AF919005F8FCF /* UIColor+EAT.m in Sources */,
+				7574C03518EC2F53005E7244 /* EATSurveyRoutingCell.m in Sources */,
+				75F61673191BA0AF00C8973E /* EATHistoryPortraitViewController.m in Sources */,
+				754F2B081A5B5AC200EE245D /* AppDelegate.swift in Sources */,
+				757D2DCC1A91202D0086C219 /* AppRouteProtocols.swift in Sources */,
+				7574C03718EC2F53005E7244 /* EATTextViewCell.m in Sources */,
+				752266E31A65310F00E212E0 /* RemindersDetailViewController.swift in Sources */,
+				757D2DC61A9117AD0086C219 /* Notifications.m in Sources */,
+				75BF6A351A9032D100061AE1 /* EATPhotoPickerController.swift in Sources */,
+				75B0B4DB1A672D1D005D99FE /* Reminder.swift in Sources */,
+				75F61672191BA0AF00C8973E /* EATHistoryLandscapeViewController.m in Sources */,
+				757D2DC81A911A310086C219 /* MainTabBarController.swift in Sources */,
+				75F05156193A33110065D721 /* EATRatingHistoryController.m in Sources */,
+				7508C1E51A5AA06500714C44 /* SettingsNavigationController.swift in Sources */,
+				75BBC2D51A82DBA9003DF65D /* PhotoCell.swift in Sources */,
+				755CB6201A6D5F0500C8998A /* ReminderExtensions.swift in Sources */,
+				758A8C401A5E99EA004D4B8E /* DataManager.swift in Sources */,
+				756E39CF189D270E00266A4C /* NSDate+Utils.m in Sources */,
+				755CB6181A6D453100C8998A /* ReminderManager.swift in Sources */,
+				7574C03618EC2F53005E7244 /* EATSwitchCell.m in Sources */,
+				7599A8061A85697F0096BADF /* PhotoManager.swift in Sources */,
+				7574C03418EC2F53005E7244 /* EATSliderCell.m in Sources */,
+				758A8C3E1A5D41DE004D4B8E /* PersistenceManager.swift in Sources */,
+				751799ED1A87D72E007695B8 /* PhotoExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75719874188B14C40091910C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755CB6221A6D625600C8998A /* ReminderExtensionsTests.swift in Sources */,
+				752266EE1A6536F700E212E0 /* DataManagerTests.swift in Sources */,
+				759CFB271A688FEA004E4646 /* ReminderCellTests.swift in Sources */,
+				755CB61B1A6D464E00C8998A /* ReminderManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7571987E188B14C40091910C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75719853188B14C40091910C /* EAT */;
+			targetProxy = 7571987D188B14C40091910C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75719860188B14C40091910C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75719861188B14C40091910C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75719869188B14C40091910C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7571986A188B14C40091910C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75719882188B14C40091910C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75719883188B14C40091910C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75719887188B14C40091910C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = EAT;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75719888188B14C40091910C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = EAT;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7571988A188B14C40091910C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EAT/Supporting Files/EAT-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/**",
+				);
+				INFOPLIST_FILE = "EAT/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EAT/Supporting Files/EAT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7571988B188B14C40091910C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EAT/Supporting Files/EAT-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/**",
+				);
+				INFOPLIST_FILE = "EAT/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "EAT/Supporting Files/EAT-Bridging-Header.h";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7571988D188B14C40091910C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EAT.app/EAT";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Erin Jones (Y39669YZWP)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EAT/Supporting Files/EAT-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EATTests/Supporting Files/EATTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-framework",
+					Crashlytics,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c3bb741b-a761-4e56-b183-29f1ed2eb7ed";
+				SWIFT_OBJC_BRIDGING_HEADER = "EATTests/EATTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7571988E188B14C40091910C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EAT.app/EAT";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Erin Jones (Z4WPTN6C4A)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EAT/Supporting Files/EAT-Prefix.pch";
+				INFOPLIST_FILE = "EATTests/Supporting Files/EATTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-framework",
+					Crashlytics,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "381731da-6fd6-45f5-92d2-f00087ec0225";
+				SWIFT_OBJC_BRIDGING_HEADER = "EATTests/EATTests-Bridging-Header.h";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7571984F188B14C40091910C /* Build configuration list for PBXProject "EAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75719887188B14C40091910C /* Debug */,
+				75719888188B14C40091910C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75719889188B14C40091910C /* Build configuration list for PBXNativeTarget "EAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7571988A188B14C40091910C /* Debug */,
+				7571988B188B14C40091910C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7571988C188B14C40091910C /* Build configuration list for PBXNativeTarget "EATTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7571988D188B14C40091910C /* Debug */,
+				7571988E188B14C40091910C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		759F71DF1898DC2E00A37A88 /* EAT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B6EF75411B8493B8001404C7 /* EAT 14.xcdatamodel */,
+				B6EF75401B849022001404C7 /* EAT 13.xcdatamodel */,
+				7562C1001A8A022700FF0CF5 /* EAT 12.xcdatamodel */,
+				759B3CDD1A884C7100A53B12 /* EAT 11.xcdatamodel */,
+				75F213C01A87EA9000E8665A /* EAT 10.xcdatamodel */,
+				759B3CD51A85AC8F00A53B12 /* EAT 9.xcdatamodel */,
+				75B1EED71A857049007C8EC8 /* EAT 8.xcdatamodel */,
+				7599A8071A856AAC0096BADF /* EAT 7.xcdatamodel */,
+				751A19301A81B02E00A13DC4 /* EAT 6.xcdatamodel */,
+				758AB2491A6C95B100AFEAFB /* EAT 5.xcdatamodel */,
+				752267111A66898200E212E0 /* EAT 4.xcdatamodel */,
+				75877B4519222FD500206EB8 /* EAT 3.xcdatamodel */,
+				75D5479B1916524800EFEDFB /* EAT 2.xcdatamodel */,
+				759F71E01898DC2E00A37A88 /* EAT.xcdatamodel */,
+			);
+			currentVersion = B6EF75411B8493B8001404C7 /* EAT 14.xcdatamodel */;
+			path = EAT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7571984C188B14C40091910C /* Project object */;
+}
